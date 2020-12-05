@@ -1,6 +1,6 @@
 # Microcontroller Self-Study Guide
 
-This is a self-study guide for microcontroller fimrware development. Each topic contains examples and exercises that will guide you in learning the basics of MCU firmware development.
+This is a self-study guide for microcontroller firmware development. Each topic contains examples and exercises that will guide you in learning the basics of MCU firmware development.
 
 ## Folder structure
 ```
@@ -10,10 +10,10 @@ Root folder
 |
 +-- tutorials
 |   +-- c_overview
-|   |   contains the different C topics separated by folders.
+|   |   contains the different C topics segregated by folders.
 |   |
 |   +-- mcu_tutorial
-|   |   contains the different C topics separated by folders.
+|   |   contains the different C topics segregated by folders.
 |
 --- README.md
 ```
