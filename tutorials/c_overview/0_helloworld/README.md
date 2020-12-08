@@ -19,7 +19,7 @@ There are other options to the gcc.
 gcc hello_world.c
 ```
 
-This will generate an error. Compilers will show your the syntax errors during compilation. In this case the syntax error is the missing semicolon after in the line `return 0`. The syntax error usually points the line where the error is found.
+This will generate an error. Compilers will show you the syntax errors during compilation. In this case the syntax error is the missing semicolon after in the line `return 0`. The syntax error usually points the line where the error is found.
 Just add the semicolon (e.g `return 0;`) and re-run the compilation command. This should produce no errors or warnings.
 
 If you check your directory, a file named `a.exe` has been created. This is the executable file that was generated from source code you compiled. You can run this program from the terminal by running the following:

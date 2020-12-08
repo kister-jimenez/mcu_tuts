@@ -50,7 +50,11 @@ To check if the compiler is in installed, open a powershell window and type the 
    There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
    PARTICULAR PURPOSE.
    ```
-  
+
+5. In case Steps 3 or 4 does not return the mingw versions, manually add the bin folder into your machine's Environment Variables. Afterwhich, recheck the mingw versions done in the previous steps to verify your installation is successful. 
+
+![environment_variables](../../images/environment_variables.png)
+
 That's it! You are now ready to start the C tutorial.
 ## Accessing the Tutorials
 Each topic is inside a folder in this format N_topic, where N is the number of the tutorial and topic is the topic covered by the tutorial. When accessing each tutorial, read the instructions in the README files in the folder.  

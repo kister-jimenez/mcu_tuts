@@ -2,14 +2,14 @@
 ## Introduction 
 In this tutorial you will be learning the following:
 
-* Variable declaration and assigment
+* Variable declaration and assignment
 * Different C data types
 * Portable data types
 * Casting
 * C operators
 
 ## Variables
-Variables in C are just names to the storage for the values that will be used by the program. Variables have to be the declared and in this way, compilers cando the compilation without further requiring more information about the variable.
+Variables in C are just names to the storage for the values that will be used by the program. Variables have to be the declared and in this way, compilers can do the compilation without further requiring more information about the variable.
 
 There are rules in naming variables in C. The following are the rules that should be followed:
 1. Names should be composed of a letters, numbers, and underscore. Special characters are not allowed.  
@@ -71,7 +71,7 @@ long b = (long) a; // b will have -5.
 unsigned int c = (unsigned int) a; 
 // c will have 65,531. -5 is represented as 16-bit 2's complement in the machine (0xFFFB). As soon as it is casted to unsigned int, it get's interpreted as positive number. But the representation in the machine is still de same(0xFFFB).
 ```
-Take note that casting from a data type with larger storage size to a smaller storage size data type results to loss of information. This means that if you cast a 16-bit int to a char, only the lower 8-bits will be retain and the uper 8-bits is lost even if you cast the 8-bit character back to a 16-bit int. 
+Take note that casting from a data type with larger storage size to a smaller storage size data type results to loss of information. This means that if you cast a 16-bit int to a char, only the lower 8-bits will be retained and the uper 8-bits is lost even if you cast the 8-bit character back to a 16-bit int. 
 
 ```c
 // syntax: (type to cast) variable;
