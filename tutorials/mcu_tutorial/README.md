@@ -15,10 +15,7 @@ In this series of tutorial, you will be able to:
 * Learn how to interface ICs to the microcontroller
 
 ### Installation
-#### Windows
-TODO: Write instructions on how to install Crosscore embedded studio and the drivers for the ADICUP3029
-
-# TODO:
+For installation and setup of ADICU3029 toolchain, go to  [CCES Installation](0_cross_core_installation_and_setup/README.md)  
 
 ___
 This ends the MCU tutorial.  
